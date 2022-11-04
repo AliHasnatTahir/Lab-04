@@ -1,0 +1,95 @@
+.parent{ 
+   
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+   
+  animation: mymove 2s ;
+  transition-delay: 1s;
+   
+}@keyframes mymove {
+    50% {transform : rotate(180deg);}
+  }
+  .child { 
+    margin-top: 40px;
+    width: 500px;
+    height: 100px;
+    border: 3px solid rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.child:hover{
+    transform: rotate(180deg);
+    transition:  0.7s;
+    
+    
+}
+.child2{
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(17, 16, 16);
+    filter: opacity(60%);
+    
+}
+.child3{
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(17, 16, 16);
+    filter: grayscale(1);
+}
+.child4{
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(17, 16, 16);
+    filter: blur(4px);
+}
+.gallery{
+    margin-top: 40px;
+    margin: 10px;
+    width: 350px;
+    float: left;
+    height: 350px;
+    border: 2px solid rgb(17, 16, 16);
+    
+}
+.clash
+{
+  margin-top: 800px;
+
+}
+.child5{
+  
+width : 400px;
+height: 300px;
+border: 2px solid rgb(17, 16, 16);
+box-shadow: 10px 10px lightblue;
+
+}
+
+
+.desc5 {
+  text-shadow: 2px 2px 2px #3a0b0b;
+}
+@media screen and (max-width: 290px) 
+{
+  .row {
+    width: 100%;
+  }
+  @media screen and (max-width: 790px) and (min-width: 300px) 
+  {
+      .row {
+        width:50%;
+      }
+      @media screen and (min-width: 800px) 
+      {
+          .row {
+            width: 25%;
+          }
+      }
+  }
+}
+     
